@@ -51,6 +51,9 @@ import PIL.Image
 
 from collections import deque
 
+# increase max image size
+PIL.Image.MAX_IMAGE_PIXELS = 815306368
+
 
 NS_DEEPZOOM = "http://schemas.microsoft.com/deepzoom/2008"
 
